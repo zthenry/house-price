@@ -1,0 +1,5 @@
+#surefire
+#Sat Jun 21 08:09:30 CST 2014
+user.dir=/home/henry/Workspaces/house-price/house-price-job
+localRepository=/home/henry/mavenRepo
+basedir=/home/henry/Workspaces/house-price/house-price-job

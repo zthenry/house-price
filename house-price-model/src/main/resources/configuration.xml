@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>     
+<!DOCTYPE configuration     
+    PUBLIC "-//mybatis.org//DTD Config 3.0//EN"     
+    "http://mybatis.org/dtd/mybatis-3-config.dtd">  
+<configuration>  
+    <typeAliases>  
+        <typeAlias type="com.henry.house.price.model.HousePrice" alias="House" />  
+    </typeAliases>  
+    <mappers>  
+        <!--userMapper.xml装载进来  同等于把“dao”的实现装载进来 -->  
+        <!-- <mapper resource="com/forum/dao/impl/userMapper.xml" /> -->  
+    </mappers>  
+      
+</configuration>
