@@ -4,11 +4,12 @@
     "http://mybatis.org/dtd/mybatis-3-config.dtd">  
 <configuration>  
     <typeAliases>  
-        <typeAlias type="com.henry.house.price.model.HousePrice" alias="House" />  
+        <!--给实体类起一个别名  -->  
+        <typeAlias type="com.henry.house.price.model.HousePrice" alias="HousePrice" />  
     </typeAliases>  
     <mappers>  
         <!--userMapper.xml装载进来  同等于把“dao”的实现装载进来 -->  
-        <!-- <mapper resource="com/forum/dao/impl/userMapper.xml" /> -->  
+        <mapper resource="com/henry/house/price/dao/impl/HousePriceDao.xml" />  
     </mappers>  
       
-</configuration>
+</configuration>  

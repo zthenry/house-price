@@ -10,6 +10,8 @@
  */
 package com.henry.house.price.service.impl;
 
+import java.util.List;
+
 import org.springframework.stereotype.Service;
 
 import com.henry.house.price.dao.HousePriceDao;
@@ -48,6 +50,11 @@ public class HousePriceServiceImpl implements HousePriceService
     public void setHousePriceDao(HousePriceDao housePriceDao)
     {
         this.housePriceDao = housePriceDao;
+    }
+
+    public List<HousePrice> getHousePricesByHouseName(String houseName)
+    {
+        return housePriceDao.getHousePricesByHouseName(houseName);
     }
     
     

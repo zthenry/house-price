@@ -10,6 +10,8 @@
  */
 package com.henry.house.price.service;
 
+import java.util.List;
+
 import com.henry.house.price.model.HousePrice;
 
 /**
@@ -26,4 +28,6 @@ public interface HousePriceService
     void createHousePrice(HousePrice housePrice);
     
     HousePrice getHousePriceById(Long id);
+    
+    List<HousePrice> getHousePricesByHouseName(String houseName);
 }

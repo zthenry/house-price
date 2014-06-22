@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/mbu/!svn/ver/73/17173app/server/project/contentManagement/trunk/contentManagement-web/src/main/webapp/WEB-INF/tld
+END
+c.tld
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/mbu/!svn/ver/73/17173app/server/project/contentManagement/trunk/contentManagement-web/src/main/webapp/WEB-INF/tld/c.tld
+END
+spring.tld
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/mbu/!svn/ver/73/17173app/server/project/contentManagement/trunk/contentManagement-web/src/main/webapp/WEB-INF/tld/spring.tld
+END
+fn.tld
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/mbu/!svn/ver/73/17173app/server/project/contentManagement/trunk/contentManagement-web/src/main/webapp/WEB-INF/tld/fn.tld
+END
+fmt.tld
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/mbu/!svn/ver/73/17173app/server/project/contentManagement/trunk/contentManagement-web/src/main/webapp/WEB-INF/tld/fmt.tld
+END

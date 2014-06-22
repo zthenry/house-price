@@ -10,6 +10,8 @@
  */
 package com.henry.house.price.dao;
 
+import java.util.List;
+
 import com.henry.house.price.model.HousePrice;
 
 /**
@@ -26,4 +28,6 @@ public interface HousePriceDao
     HousePrice getHouseInfoById(Long id);
     
     void insertHousePrice(HousePrice housePrice);
+    
+    List<HousePrice> getHousePricesByHouseName(String houseName);
 }
