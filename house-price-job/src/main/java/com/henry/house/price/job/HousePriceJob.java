@@ -47,7 +47,7 @@ public class HousePriceJob
     @Autowired
     private HousePriceService housePriceService;
     
-    @Scheduled(cron="0 40 15 ? * *")  
+    @Scheduled(cron="0 33 8 ? * *")  
     public void getNewHousePrice(){
         System.out.println("getNewHousePrice......");
         String newhourcePriceUrl="http://newhouse.xian.soufun.com/house/s/a78-b9";
@@ -94,7 +94,6 @@ public class HousePriceJob
                     
                     System.out.println(houseName + " "+price+" "+address+" "+kfsName);
                     String priceNumber = price.replaceAll("\\D", "").trim();
-                    boolean flag = false;
 
                     Pattern p = Pattern.compile(".*\\d+.*");
 

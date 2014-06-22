@@ -25,5 +25,5 @@ public interface HousePriceDao
 {
     HousePrice getHouseInfoById(Long id);
     
-    Integer insertHousePrice(HousePrice housePrice);
+    void insertHousePrice(HousePrice housePrice);
 }

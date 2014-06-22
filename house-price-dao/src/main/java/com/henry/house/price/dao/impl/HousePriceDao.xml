@@ -12,5 +12,5 @@
     <insert id="insertHousePrice" parameterType="HousePrice">
   		
             insert into house_price(house_name,kfs_name,address,price,create_time) values (#{houseName},#{kfsName},#{address},#{price},#{createTime})
- </insert>
+    </insert>
 </mapper>
